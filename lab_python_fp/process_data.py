@@ -1,11 +1,11 @@
 import json
 import sys
 
-from lab_python_fp.field import field
-from lab_python_fp.print_result import print_result
-from lab_python_fp.cm_timer import cm_timer_2
-from lab_python_fp.gen_random import gen_random
-from lab_python_fp.unique import Unique
+from field import field
+from print_result import print_result
+from cm_timer import cm_timer_2
+from gen_random import gen_random
+from unique import Unique
 
 path = sys.argv[1]
 
