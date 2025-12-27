@@ -84,7 +84,6 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         await update.message.reply_text("Введите имя:", reply_markup=back_keyboard)
 
-        # можно сразу сбросить автомат
         states[user_id] = WAITING
         data[user_id] = {}
 
